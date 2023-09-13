@@ -4,6 +4,18 @@
     <ProjectReference Include="..\ArtOfUnitTesting\ArtOfUnitTesting.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="obj\**" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
